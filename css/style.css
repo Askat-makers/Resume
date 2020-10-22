@@ -1,0 +1,251 @@
+/* Работа Жумабаева Асхата */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color: #474747;
+}
+/* start header */
+.container{
+    background-color: #474747;
+}
+/* start navbar */
+
+.navbar{
+    background-color: #474747;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-item a:hover{
+    color: #ff5e14 !important;
+}
+
+.nav-item a{
+    font-size: 18px;
+}
+/* end navbar */
+.about__me p{
+    color: white;    
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.its__me{
+    background-color: #474747;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+.its__me h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+.its__me p{
+    font-size: 30px;
+    color: white;
+    font-weight: 500 ;
+}
+
+.about__me{
+    padding-bottom: 70px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: #ff5e14;
+    border: 1px solid #ff5e14;
+    color: white;
+}
+
+.button{
+    width: 20%;
+}
+/* End header */
+
+/* start carousel */
+.carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 20%;
+}
+
+.carousel__title{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+/* end carousel */
+
+/* start section-1 */
+.card{
+    border: none;
+    background-color: #474747;
+}
+
+.card-body__title{
+    color: white ;
+    font-size: 24px;
+}
+
+.range-slider p{
+    color: white;
+    margin-bottom: 0;
+}
+
+.progress{
+    margin-bottom: 14px;
+}
+/* end section-1 */
+
+/* start footer */
+.footer-section {
+    /* background: #151414; */
+    position: relative;
+}
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+
+  .cta-text a:hover{
+    color: #ff5e14 !important;
+  }
+
+  .cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+   max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+  }
+  
+  .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #ff5e14;
+  }
+  .footer-widget ul li {
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+    color: #ff5e14;
+  }
+  .footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  /* end footer */
+
+  @media all and (max-width: 768px){
+      .my-photo{
+          margin-top: 140px;
+      }
+  }
+
+  @media all and (max-width: 576px){
+    h1{
+      font-size: 50px !important;
+      margin-top: 70px;
+    }
+
+  }
+
+  @media all and (max-width: 433px){
+    .about__me button{
+        width: auto;     
+    }
+  }
